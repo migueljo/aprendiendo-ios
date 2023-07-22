@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kYf-Or-0gl">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Inicio-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AprendiendoiOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -21,6 +22,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Need Help?"/>
+                                <connections>
+                                    <segue destination="0hq-sh-CAf" kind="show" id="gyA-Sn-lNt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWX-Wd-9Mx">
                                 <rect key="frame" x="68" y="670" width="257" height="47"/>
@@ -28,6 +32,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign Up for Facebook"/>
+                                <connections>
+                                    <segue destination="pu7-yq-6wf" kind="showDetail" id="bWi-9m-Gn0"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="qg5-d5-sdr">
                                 <rect key="frame" x="68" y="163" width="257" height="120"/>
@@ -57,13 +64,70 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.2196078431372549" green="0.34509803921568627" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Inicio" id="wsJ-tW-U6a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="1061.8320610687022" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vZ1-jv-LBH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kYf-Or-0gl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="po4-EZ-RxN">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="UwB-Oz-xR5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tzR-yw-RZa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="315" y="4"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gmW-UT-s5C">
+            <objects>
+                <viewController id="pu7-yq-6wf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iU9-Lf-MBE">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="uUB-JT-XQF"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gpA-S4-6tC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QZy-bM-bq0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1060" y="723"/>
+        </scene>
+        <!--Ayuda-->
+        <scene sceneID="xFl-T3-UWq">
+            <objects>
+                <viewController id="0hq-sh-CAf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VAs-FS-qgf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="f2q-YH-vQe"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ayuda" id="542-Na-zND"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z3p-dw-YHW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1839" y="723"/>
         </scene>
     </scenes>
     <resources>
         <image name="logo" width="400" height="230"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
