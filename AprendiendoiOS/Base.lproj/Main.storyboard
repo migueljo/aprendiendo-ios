@@ -60,7 +60,7 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="21"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="XOL-g4-Bst" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="DMy-Hq-fkv"/>
+                                    <action selector="loginButtonAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="i5i-4p-Azz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -68,6 +68,10 @@
                         <color key="backgroundColor" red="0.2196078431372549" green="0.34509803921568627" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" title="Inicio" id="wsJ-tW-U6a"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="FDV-be-ysy" id="hoc-1W-hbH"/>
+                        <outlet property="passwordTextField" destination="pXh-3c-xln" id="Hds-1z-BFN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
