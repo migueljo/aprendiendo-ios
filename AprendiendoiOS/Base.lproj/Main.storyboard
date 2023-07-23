@@ -71,6 +71,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="FDV-be-ysy" id="hoc-1W-hbH"/>
                         <outlet property="passwordTextField" destination="pXh-3c-xln" id="Hds-1z-BFN"/>
+                        <segue destination="XOL-g4-Bst" kind="presentation" identifier="home_seque" modalPresentationStyle="fullScreen" id="Kbr-jn-Tnx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

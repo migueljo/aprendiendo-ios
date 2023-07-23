@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         
         if email == "m@m.com" && password == "123" {
             print("Welcome!")
+            self.performSegue(withIdentifier: "home_seque", sender: nil)
         } else {
             print("Invalid credentials!")
         }
