@@ -16,6 +16,7 @@
 		5E5EE63F2A6B808D000B59D0 /* AprendiendoiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5EE63E2A6B808D000B59D0 /* AprendiendoiOSTests.swift */; };
 		5E5EE6492A6B808D000B59D0 /* AprendiendoiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5EE6482A6B808D000B59D0 /* AprendiendoiOSUITests.swift */; };
 		5E5EE64B2A6B808D000B59D0 /* AprendiendoiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5EE64A2A6B808D000B59D0 /* AprendiendoiOSUITestsLaunchTests.swift */; };
+		5E5EE6582A6CD8FD000B59D0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5EE6572A6CD8FD000B59D0 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5E5EE6442A6B808D000B59D0 /* AprendiendoiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AprendiendoiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5EE6482A6B808D000B59D0 /* AprendiendoiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendiendoiOSUITests.swift; sourceTree = "<group>"; };
 		5E5EE64A2A6B808D000B59D0 /* AprendiendoiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendiendoiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E5EE6572A6CD8FD000B59D0 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5E5EE6302A6B808C000B59D0 /* Assets.xcassets */,
 				5E5EE6322A6B808C000B59D0 /* LaunchScreen.storyboard */,
 				5E5EE6352A6B808C000B59D0 /* Info.plist */,
+				5E5EE6572A6CD8FD000B59D0 /* Home.storyboard */,
 			);
 			path = AprendiendoiOS;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				5E5EE6342A6B808C000B59D0 /* LaunchScreen.storyboard in Resources */,
 				5E5EE6312A6B808C000B59D0 /* Assets.xcassets in Resources */,
 				5E5EE62F2A6B8088000B59D0 /* Main.storyboard in Resources */,
+				5E5EE6582A6CD8FD000B59D0 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -59,6 +59,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Log In">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="21"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="XOL-g4-Bst" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="DMy-Hq-fkv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -68,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1061.8320610687022" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="1055.7251908396945" y="3.5211267605633805"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vZ1-jv-LBH">
@@ -119,6 +122,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z3p-dw-YHW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1839" y="723"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="QKs-xu-OlD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="XOL-g4-Bst" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NUX-N7-S2s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1871" y="4"/>
         </scene>
     </scenes>
     <resources>
