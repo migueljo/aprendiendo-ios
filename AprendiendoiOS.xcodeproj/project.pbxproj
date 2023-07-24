@@ -17,6 +17,7 @@
 		5E5EE6492A6B808D000B59D0 /* AprendiendoiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5EE6482A6B808D000B59D0 /* AprendiendoiOSUITests.swift */; };
 		5E5EE64B2A6B808D000B59D0 /* AprendiendoiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5EE64A2A6B808D000B59D0 /* AprendiendoiOSUITestsLaunchTests.swift */; };
 		5E5EE6582A6CD8FD000B59D0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5EE6572A6CD8FD000B59D0 /* Home.storyboard */; };
+		5EB779F52A6E1F1900470551 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB779F42A6E1F1900470551 /* HelpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5E5EE6482A6B808D000B59D0 /* AprendiendoiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendiendoiOSUITests.swift; sourceTree = "<group>"; };
 		5E5EE64A2A6B808D000B59D0 /* AprendiendoiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendiendoiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5E5EE6572A6CD8FD000B59D0 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		5EB779F42A6E1F1900470551 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				5E5EE6272A6B8088000B59D0 /* AppDelegate.swift */,
 				5E5EE6292A6B8088000B59D0 /* SceneDelegate.swift */,
 				5E5EE62B2A6B8088000B59D0 /* ViewController.swift */,
+				5EB779F42A6E1F1900470551 /* HelpViewController.swift */,
 				5E5EE62D2A6B8088000B59D0 /* Main.storyboard */,
 				5E5EE6302A6B808C000B59D0 /* Assets.xcassets */,
 				5E5EE6322A6B808C000B59D0 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 				5E5EE62C2A6B8088000B59D0 /* ViewController.swift in Sources */,
 				5E5EE6282A6B8088000B59D0 /* AppDelegate.swift in Sources */,
 				5E5EE62A2A6B8088000B59D0 /* SceneDelegate.swift in Sources */,
+				5EB779F52A6E1F1900470551 /* HelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
